@@ -137,7 +137,7 @@ if not enough_roof_area_available:
                 response = self.sms.send(message, recipients, sender)
                 print (response)
             except Exception as e:
-                print (f'Houston, we have a problem: {e}')
+                print (f'Sam, we have a problem: {e}')
     sms().sending()
 
 if enough_roof_area_available:
@@ -158,7 +158,7 @@ if enough_roof_area_available:
             # Set the numbers in international format
             recipients = ["+254735000014"]
             # Set your message
-            message = "To do so you have enough roof area and the qualification to implement the solar solution: NICE!.\n";
+            message = "Hello Esteemed customer, You have enough roof area and the qualification to implement the solar solution. A detailed Quote will be sent to your inbox shortly.Have a Lovely day : NICE!.\n";
             # Set your shortCode or senderId
             sender = "13610"
 
@@ -166,7 +166,7 @@ if enough_roof_area_available:
                 response = self.sms.send(message, recipients, sender)
                 print (response)
             except Exception as e:
-                print (f'Houston, we have a problem: {e}')
+                print (f'Mike, we have a problem: {e}')
     sms().sending()
 ##################################################################################
 # Plotting the costs of solar energy vs no solar energy ##########################
