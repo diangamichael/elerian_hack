@@ -1,8 +1,10 @@
 # In order to Run this file you need to install the module suntime (pip3 install suntime) and datetime
 # Importing required models
+
+from elarian import Elarian
 from solar_panel_calculator_functions import *
 import matplotlib.pyplot as plt  # needed if you want to plot the comparison of costs
-
+import asyncio
 #########################################################################################
 # Reading input file and creating a dictionary with the required input values ###########
 #########################################################################################
