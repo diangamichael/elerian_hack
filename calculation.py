@@ -131,7 +131,7 @@ if not enough_roof_area_available:
             # Set your message
             message = "To do so you do not have enough roof area.\n";
             # Set your shortCode or senderId
-            sender = "Jaribu Solar"
+            sender = "13610"
 
             try:
                 response = self.sms.send(message, recipients, sender)
@@ -160,7 +160,7 @@ if enough_roof_area_available:
             # Set your message
             message = "Hello Esteemed customer, You have enough roof area and the qualification to implement the solar solution. A detailed Quote will be sent to your inbox shortly.Have a Lovely day : NICE!.\n";
             # Set your shortCode or senderId
-            sender = "Jaribu Solar"
+            sender = "13610"
 
             try:
                 response = self.sms.send(message, recipients, sender)
